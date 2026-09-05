@@ -7,7 +7,7 @@ public:
             if((c>>i)&1)
             {
                 if(!((a>>i)&1) &&!((b>>i)&1)) count++;
-            }else if(!((c>>i)&1))
+            }else 
             {
               if((a>>i)&1) count++;
               if((b>>i)&1) count++;
