@@ -12,6 +12,7 @@ public:
                   sum+=nums[j];
                   int length=j-i+1;
                   if(length>=l &&length<=r &&sum>0) mini=min(sum,mini);
+                  if(length>r) break;
             }
         }
      
