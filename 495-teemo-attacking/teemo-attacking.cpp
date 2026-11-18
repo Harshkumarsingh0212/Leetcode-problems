@@ -7,7 +7,7 @@ public:
             arr[i][0] = timeSeries[i];
             arr[i][1] = timeSeries[i] + duration - 1;
         }
-        sort(arr.begin(), arr.end());
+       
         int total = 0;
         int currstart = arr[0][0];
         int currend = arr[0][1];
